@@ -66,15 +66,30 @@
           null
         ]
       },
+      "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/controllers/api/v1/t_questions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/controllers/application_controller.rb": {
         "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
+          1,
+          null
+        ]
+      },
+      "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/serializers/t_question_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1680647906
+    "timestamp": 1680649997
   }
 }
