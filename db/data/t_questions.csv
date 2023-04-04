@@ -1,0 +1,107 @@
+id,question,q_type
+1,What online resources do you use to help you do your job?,3
+2,How do you keep your technology skills current?,3
+3,What are the pros and cons of your chosen technology?,3
+4,What are variables?,3
+5,What is inheritance?,3
+6,What is polymorphism? ,3
+7,"In as much detail as possible, explain how you would localize an application.",3
+8,Tell me two advantages of testing your code.,3
+9,Name three strategies for fixing cross-browser inconsistencies.,1
+10,What are some tools and strategies you use to prevent shipping unstable code to production?,3
+11,What factors influence whether youll take a progressive enhancement vs. graceful degradation approach to building an application?,1
+12,Define the term MVC and explain how an application is architected when following MVC patterns.,1
+13,What does CORS stand for and what issue does it address?,3
+14,"In as much detail as possible, describe the request-response cycle.",3
+15,Tell me 3 new features of CSS3.,1
+16,Can you describe what responsive design is to you and how you would implement it?,1
+17,Whats the difference between display: inline and display: inline-block?,1
+18,What is a pseudo class? What are they used for?,1
+19,Describe z-index and how stacking context is formed.,1
+20,"If you have two elements inside of an outer containing element, one with float: left; and the other with float: right, how can you ensure that the containing element expands around the floated elements and does not collapse?",1
+21,"Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?",1
+22,What does event bubbling or event propagation mean?,1
+23,Whats the difference between undefined and null.,1
+24,"In as much detail as possible, explain how JSON Web Tokens work.",1
+25,What is Ajax?,1
+26,"What is ""use strict"";? What are the advantages and disadvantages to using it?",1
+27,Explain why the following doesnt work as an IIFE: function foo(){ }();. What needs to be changed to properly make it an IIFE? Why?,1
+28,What are the pros and cons of using Promises instead of callbacks?,1
+29,"What is a closure, and how/why would you use one?",1
+30,What advantages does React offer? What about disadvantages?,1
+31,Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?,1
+32,"In an HTML file, what does the doctype keyword do?",1
+33,Give an example of a self-closing HTML tag.,1
+34,Whats the difference between window.onload and onDocumentReady,1
+35,Give an example of an element that is considered a block-level element? An example of an inline element? What’s the difference between block-level and inline elements?,1
+36,What could we use instead of <b> tags for bold and <i> tags for italics to make our HTML more semantic?,1
+37,"What is the purpose of article, section, header and footer tags? Please explain with an example and why we should not use divs.",1
+38,What are HTML data attributes?,1
+39,What is the event loop?,1
+40,What are some popular NodeJS Modules?,1
+41,What is the concept of state in React?,1
+42,What is the virtual DOM in React?,1
+43,How is an array different from an object?,1
+44,What is the DOM? How is the virtual dom different?,1
+45,What does npm eject do?,1
+46,What does npm build do?,1
+47,How do you make sure your project meets the requirements you have received?,1
+48,What IDE do you use?,1
+49,How does json work?,1
+50,What is a react component?,1
+51,Whats the difference between map state to props and map dispatch to props?,1
+52,What problems does redux solve?,1
+53,What are libraries you have used?,1
+54,What are frameworks you have used?,1
+55,How are props different from state?,1
+56,Do you know the concept of SCRUM?,3
+57,What is JSX?,1
+58,How is JSX different from HTML?,1
+59,Explain how a branch works in git.,3
+60,What can you tell me about RESTful APIs?,3
+61,Do you know what a bearer token is in terms of JWT?,1
+62,What is CORS?,3
+63,Whats the difference between ES5 and ES6?,1
+64,What function would you use to search an array and return a value?,1
+65,How would you find all the values for a specific key in an array of objects?,1
+66,How do you interact with APIs on the front end?,1
+67,Whats the difference between an HTTP request and response?,3
+68,What does a 200 status code mean?,3
+69,What does a 400 status code mean?,3
+70,What is chaining in javascript?,1
+71,How do you stay up-to-date on JS and React news/improvements?,1
+72,Why use cookies?,3
+73,Have you used local storage?,1
+74,Whats the difference between let and const?,1
+75,Whats your experience with React Hooks? Why use them?,1
+76,What is your code review process?,1
+77,What is the difference between Array#map and Array#each?,0
+78,Name 4 ruby enumerables excluding each and map and give a brief example of what’s unique about each.,0
+79,"In as much detail as possible, describe the request-response cycle.",0
+80,Whats a module in Ruby? Whats the difference between a class and a module? What are some good use cases for modules?,0
+81,What are a few ways to optimize a Rails application?,0
+82,What is HTTP and give a brief definition?,0
+83,What are three tools or strategies you use to prevent shipping unstable code to production?,0
+84,Whats a background worker? When would we want to use a background worker?,0
+85,Whats the difference between a session and a cookie?,0
+86,Explain a git merge workflow vs a git rebase workflow,0
+87,Whats the difference between authentication and authorization? What tools have you used to set up auth in the past?,0
+88,What is TDD and give a brief definition?,0
+89,What does API stand for and how do you define it?,0
+90,What does it mean to compile code?,0
+91,Tell me two advantages of testing your code.,0
+92,"My production and development environments are using large sets of data. What are some ways to optimize my tests to run quickly, but be thorough?",0
+93,What is a Mock vs. a Stub in testing? When would you use each?,0
+94,What is yield in Ruby? What is it useful for? Give an example of where you would put it.,0
+95,Describe each of the four fundamental concepts of object-oriented programming. How would you implement each of these in your code?,0
+96,"An enumerable by any other name still behaves the same. Give the other name for these 3 Ruby enumerables Detect, Select, Collect.",0
+97,"In as much detail as possible, describe DNS.",0
+98,What does CORS stand for and what issue does it address?,0
+99,"In as much detail as possible, tell me about JSON Web Tokens.",0
+100,What is your code review process?,0
+101,Explain as much as you can about RESTful APIs.,0
+102,Describe what an MVC architecture is.,0
+103,Describe what an SOA (Service Oriented Archicture) application is and looks like? What are the benefits and drawbacks?,0
+104,"Explain to me the general meaning behind each series of error codes (ex. 200’s, 300’s, 400’s, 500’s).",0
+105,There are only 2 values in Ruby that evaluate to false - what are they?,0
+106,What is Rails?,0
