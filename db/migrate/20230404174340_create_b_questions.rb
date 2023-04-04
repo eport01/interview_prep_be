@@ -1,0 +1,9 @@
+class CreateBQuestions < ActiveRecord::Migration[5.2]
+  def change
+    create_table :b_questions do |t|
+      t.string :question
+
+      t.timestamps
+    end
+  end
+end

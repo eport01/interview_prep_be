@@ -1,0 +1,80 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/models/b_question.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/models/t_question.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/models/todo.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/models/user_b_question.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/models/user_t_question.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/controllers/application_controller.rb": {
+        "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1680632082
+  }
+}
