@@ -5,7 +5,8 @@ class User < ApplicationRecord
   has_many :t_questions, through: :user_t_questions
   has_many :todos 
 
-  validates_presence_of :name, :email, :username, :password_digest 
+  validates_presence_of :name, :username, :password
+  validates :email, uniqueness: true, presence: true 
 
   has_secure_password 
 end
