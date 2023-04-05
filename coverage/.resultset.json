@@ -127,10 +127,10 @@
           null,
           null,
           1,
-          2,
-          2,
-          2,
-          2,
+          3,
+          3,
+          3,
+          3,
           null,
           0,
           null,
@@ -167,6 +167,29 @@
           null
         ]
       },
+      "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/controllers/api/v1/user_t_questions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/serializers/user_t_question_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/serializers/user_serializer.rb": {
         "lines": [
           1,
@@ -176,6 +199,6 @@
         ]
       }
     },
-    "timestamp": 1680716066
+    "timestamp": 1680716387
   }
 }
