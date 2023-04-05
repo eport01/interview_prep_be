@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'users requests' do 
-  it 'can create a new user' do 
+  it 'can create a new user', :vcr do 
     user = {
       "name": "Louie",
       "email": "louie@zoe.com",
@@ -19,7 +19,7 @@ RSpec.describe 'users requests' do
     expect(new_user.password_digest).to_not eq(nil)
   end
 
-  it 'create new user endpoint renders new user data and status 201' do 
+  it 'create new user endpoint renders new user data and status 201', :vcr do 
     user = {
       "name": "Louie",
       "email": "louie2@zoe.com",
@@ -41,7 +41,7 @@ RSpec.describe 'users requests' do
   end
 
   describe 'logging in a user' do 
-    it 'can login with username and password' do 
+    it 'can login with username and password', :vcr do 
       user = User.create(username: "chocolate", password: "123", name: "Zoe", email: "cats@test.com")
 
       credentials = {

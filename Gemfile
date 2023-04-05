@@ -49,6 +49,8 @@ group :test do
   gem 'capybara'
   gem 'simplecov'
   gem 'shoulda-matchers'
+  gem 'webmock'
+  gem 'vcr'
 end 
 # gem "net-http"
 # gem 'uri', '~> 0.12.1'
