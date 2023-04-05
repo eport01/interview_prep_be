@@ -12,7 +12,7 @@ RSpec.describe 'todos requests' do
       get "/api/v1/login", headers: {'CONTENT_TYPE' => 'application/json'}, params: credentials
     
       todo = {
-        "item": "Apply for 3 jobs",
+        "item": "Apply for 3 jobs"
       }
 
       post "/api/v1/users/#{session[:user_id]}/todos", headers: {'CONTENT_TYPE' => 'application/json'}, params: JSON.generate(todo)

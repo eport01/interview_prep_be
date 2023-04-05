@@ -1,4 +1,9 @@
 class Api::V1::UsersController < ApplicationController
+  
+  def index 
+    user = User.find_by(username: params[:username])
+    render json: UserSerializer.new(user)
+  end
   def create 
     user = User.new(user_params) 
     if user.valid?
