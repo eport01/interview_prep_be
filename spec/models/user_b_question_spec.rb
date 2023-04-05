@@ -12,4 +12,5 @@ RSpec.describe UserBQuestion, type: :model do
 
   end
 
+  
 end 

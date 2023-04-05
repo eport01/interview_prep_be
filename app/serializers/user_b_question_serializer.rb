@@ -1,4 +1,7 @@
 class UserBQuestionSerializer
   include JSONAPI::Serializer
-  attributes :answer, :status 
+  attributes :answer, :status, :bquestion 
+
+
+
 end

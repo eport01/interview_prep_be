@@ -1,4 +1,5 @@
 class UserTQuestionSerializer
   include JSONAPI::Serializer
-  attributes :answer, :status 
+  attributes :answer, :status, :tquestion  
+
 end

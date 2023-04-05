@@ -69,7 +69,7 @@ RSpec.describe 'users requests' do
       @answer1 = UserTQuestion.create!(user_id: @user.id, t_question_id: @tquestion1.id, answer: "client and server communicate")
       @answer2 = UserTQuestion.create!(user_id: @user.id, t_question_id: @tquestion2.id, answer: "application programming interface")
       @answer3 = UserBQuestion.create!(user_id: @user.id, b_question_id: @bquestion1.id, answer: "I love to be challenged")
-    
+
     end
     it 'endpoint with user relationships, all t and b questions, and todo items' do 
       input = {"username": @user.username}

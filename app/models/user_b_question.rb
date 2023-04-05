@@ -4,4 +4,7 @@ class UserBQuestion < ApplicationRecord
   
   validates_presence_of :answer 
 
+  def bquestion 
+    self.b_question 
+  end
 end
