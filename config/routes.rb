@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :b_questions 
       resources :t_questions 
       resources :users 
+      get "/login", to: "users#login"
     end
   end
 

@@ -79,6 +79,11 @@
       "/Users/emilyport/Desktop/Turing/mod_5/practice/interview_prep_be/app/controllers/application_controller.rb": {
         "lines": [
           1,
+          1,
+          null,
+          0,
+          0,
+          null,
           null
         ]
       },
@@ -121,6 +126,17 @@
           null,
           null,
           null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          null,
           null,
           1,
           1,
@@ -138,6 +154,6 @@
         ]
       }
     },
-    "timestamp": 1680712149
+    "timestamp": 1680714296
   }
 }

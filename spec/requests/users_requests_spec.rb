@@ -39,4 +39,20 @@ RSpec.describe 'users requests' do
     expect(user_data[:data][:attributes]).to have_key(:name)
     expect(user_data[:data][:attributes][:name]).to be_a String 
   end
+
+  describe 'logging in a user' do 
+    it 'can login with username and password' do 
+      user = User.create(username: "chocolate", password: "123", name: "Zoe", email: "cats@test.com")
+
+      credentials = {
+        "username": "chocolate",
+        "password": "123"
+      }
+      get "/api/v1/login", headers: {'CONTENT_TYPE' => 'application/json'}, params: credentials
+    
+      expect(response).to be_successful
+
+      expect(session[:user_id]).to eq(user.id)
+    end
+  end
 end
